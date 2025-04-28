@@ -9,9 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-.home{
 
-}
 
 header {
     background-color: #333;
@@ -28,34 +26,6 @@ header h1 {
 header p {
     font-size: 14px;
 }
-
-/* nav {
-    background-color: #f4f4f4;
-    padding: 10px 20px;
-    display: flex;
-    gap: 30%;
-    align-items: center;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin-left: 10%;
-    display: flex;
-    gap: 10%;
-    width: 80%;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-} */
 
 .book-title {
     display: flex;
@@ -174,9 +144,7 @@ html {
         margin: 0;
         overflow-x: hidden;
     }
-    .home{
-    
-    }
+
     
     header {
         background-color: #333;
@@ -221,11 +189,11 @@ html {
         font-size: 20px;
         margin-bottom: 10px;
     }
+
     .title-content p{
         width: 100%;
-
     }
-    
+
     .reflection-text {
         width: 100%;
     }
@@ -261,9 +229,8 @@ html {
     .about-book{
         margin-top: 10%;
         background-color: #f9f9f9;
-       
-        
     }
+
     .about-book img {
         width: 150px;
         height: 150px;
@@ -304,7 +271,5 @@ html {
     .hr{
         width: 50%;
     }
-    
-
  
 }
