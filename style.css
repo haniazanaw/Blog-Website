@@ -178,50 +178,77 @@ html {
 
 
 
-@media screen and (max-width: 600px){
+@media only screen and  (max-width: 750px){
+
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     
-    body {
-        background-color:lightcyan;
-        font-family: Arial, sans-serif;
+    .home{
         line-height: 1.6;
-        margin: 0;
+        background-color:rgb(206, 170, 134);
+        font-family:Arial, Helvetica, sans-serif;
         overflow-x: hidden;
+        height: 50%;
+        width: 100%;
     }
-
+      nav {
+        background-color:#ffefc5;
+        padding: 10px 20px;
+      }
     
-    header {
-        background-color: #333;
-        color: white;
+      nav ul {
+      
+        list-style: none;
+        display: flex;
+        gap: 100px;
+        margin-left: 35%;
+      }
+    
+      nav ul li a {
+       
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    header h1{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+      header {
+        background-color:#ffefc5;
         text-align: center;
-        padding: 20px;
-    }
-    
-    header h1 {
-        font-size: 36px;
-        margin-bottom: 5px;
-    }
-    
-    header p {
-        font-size: 14px;
+        height: -1px;
+        padding-bottom: 7px;
+        color:black;
+       flex-direction: row;
+       
+      }
+      
+    #book{
+        margin-right: 17%;
+        width: 4%;
+        margin-bottom: -70px;
+        border-radius: 50px; 
     }
     
     .book-title {
-       flex-direction: column;
-        width: 100%;
+        display: flex;
+        width: 900px;
         margin-top: 3%;
-        margin-left: 1%;
+        margin-left: 5%;
         gap: 2%;
         padding-right: 4%;
-        padding-top: 3%;;
+        padding-top: 4%;;
     }
-    
+    .title-content{
+        margin-left: 10px;
+    }
     .main{
-        flex-direction: column;
+        display: flex;
+        margin-left: 5%;
     }
     
     .book-title img {
@@ -230,55 +257,72 @@ html {
         height: 300px;
         margin-right: 10px;
         margin-top: 20px;
-        margin-left: 50px;
     }
     
     .title-content h2 {
         font-size: 20px;
         margin-bottom: 10px;
-    }
-
-    .title-content p{
-        width: 100%;
-    }
-
-    .reflection-text {
-        width: 100%;
+        margin-left: 70px;
     }
     
-    .book-reflection img {
+    .reflection-text {
+        margin-left: 5%;
+       margin-top: 70px;
+    }
+    .reflection-text h2{
+        margin-left: 15%;
+        font-size: 35px;
+    
+    }
+    #comment{
+    
+    font-style:oblique;
+    line-height: 3vh;
+    }
+      #animated-img {
+        width: 500px;
+        height: 100%;
         border-radius: 10px;
-        width: 300px;
-        height: 300px;
         margin-right: 10px;
         margin-top: 5%;
-    }
+        opacity: 0;
+        transform: scale(0.8);
+        animation: bounce 2s ease-in-out infinite;
+      }
+      
+      @keyframes bounce {
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    
     
     .book-reflection {
-        flex-direction: column;
+        display: flex;
         margin-top: 3%;
         margin-left: 10%;
-        gap: 2%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         border: 1px solid rgb(226, 47, 47);
         padding: 3%;
         margin-right: 8%;
-        border-radius: 3%;
+        border-radius: 5%;
+        width: 150vh;
+        height: 90vh;
     }
     .aside {
-        margin-left: 0;
+        margin-left:15%;
         margin-top: 1%;
         width: 400px;
         border-radius: 10px;
         text-align: center;
-        height: 70vh;
-        
+        height: 50vh;
     }
     .about-book{
-        margin-top: 10%;
-        background-color: #f9f9f9;
+        margin-top: 20%;
+        background-color:#ffefc5;
+        padding: 10px 30px ;
     }
-
     .about-book img {
         width: 150px;
         height: 150px;
@@ -307,17 +351,11 @@ html {
         background-color: #222;
         color: #ccc;
         text-align: center;
-        padding: 15px 0;
-        font-size: 0.9rem;
-        width: 100%;
+        padding: 20px 0;
+        font-size: 1.5rem;
     }
     
     html {
         scroll-behavior: smooth;
-    }
-    
-    .hr{
-        width: 50%;
-    }
- 
+    }  
 }
