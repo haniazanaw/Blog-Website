@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: gotham;  
+    color: rgb(49, 2, 49);
+  }
+  
+  @font-face {
+    font-family: gothambold;
+    src: url(fonts/GothamPro-Bold.ttf);
+  }
+  @font-face {
+    font-family: gotham;
+    src: url(fonts/GothamPro.ttf);
+  }
+  #logo{
+    width:3%;
+  
+  }
+  .navigation{
+    text-align: center;
+    font-family: gotham;
+    color: rgb(49, 2, 49);
+    line-height: 5vh;
+  }
+  .options{
+    display:flex;
+    gap: 2%;
+    margin-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .options li{
+    list-style: none;
+    display: inline;
+  }
+  a{
+  text-decoration: none;
+  color: rgb(49, 2, 49);
+  }
+  .options a:hover {
+    color: rgb(193, 4, 187);
+  }
+  .options a.active {
+    color: rgb(187, 63, 183);
+  }
+  #email{
+    width: 40%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+  }
+  .btn{
+    width: 20%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+    transition-duration: 0.4s;
+  }
+  .btn:hover{
+    background-color: rgb(193, 4, 187);
+    color: rgb(246, 216, 245);
+  }
+  .foot{
+    margin-top: 3%;
+  }
+  #copyright{
+    text-align: center;
+  }
+  .socials{
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .subscribe{
+    background-color: rgb(49, 2, 49);
+    color: rgb(246, 216, 245);
+    border-radius: 12px;
+    padding: 3%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .btn{
+    width: 20%;
+    padding: 2%;
+    background-color: rgb(246, 216, 245);
+    transition-duration: 0.4s;
+  }
+  .btn:hover{
+    background-color: rgb(193, 4, 187);
+    color: rgb(246, 216, 245);
+  }
+  
+  #copyright{
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+  .home-page {
+    background-color: lightgrey;
+    margin: 2rem auto;
+    max-width: 170vh;
+    max-height: 155vh;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  main {
+    display: flex;
+    padding: 2rem;
+   
+  
+  }
+  
+  .left-page img {
+    width: 60%;
+    height: 700%;
+    border-radius: 50px;
+    padding-top: 10%;
+    margin-left: 40px;
+    
+  }
+  
+  .bottom {
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+    padding-left: 48px;
+  }
+  
+  .right-page {
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 90px;
+    text-align: justify;
+  
+  }
+  
+  .right-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right-page p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .biography {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #333;
+  margin-top: 10%;
+  }
+  
+  .biography span {
+    font-weight: bold;
+    padding-bottom: 20%;
+  }
+  
+  .biography p{
+    margin-top: 3%;
+  }
+  
+  .biography button {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .books {
+    display: flex;
+    gap:7%;
+    margin-left: 20%;
+    padding-bottom: 20px;
+  }
+  
+  .book {
+    width: 140px;
+  }
+  
+  .trevor-noah{
+    max-height: fit-content;
+  }
+  
+  .books img {
+    width: 120%;
+    border-radius: 8px;
+  }
+  .button{
+    background-color:rgb(209, 170, 209) ;
+    width: 20%;
+  }
+  .button a{
+    margin-left: 20px;
+    color: black;
+  }
+  .books-head{
+    margin-top: 20px;
+  }
+  .books-head h2 {
+    font-size: 150%;
+    color: #FF6F61;
+    margin-left: 30%;
+  }
+  
+  .book-list {
+    overflow: hidden;
+    position: relative;
+  }
+  .book-animation{
+
+    display: flex;
+    animation: scroll 5s linear infinite;
+  }
+  
+  .book img{
+  width: 20vw;
+
+  height: 40vh;
+  }
+  
+  .book {
+    padding: 200px;
+  }
+  
+  .title {
+    
+    color: #555;
+    background: #F9F9F9;
+     text-align: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+  }
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+  }
+  
