@@ -251,3 +251,500 @@
     }
   }
   
+
+
+  @media screen and (min-width: 750px) and (max-width: 999px) {
+  
+    #logo {
+      width: 8%;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .navigation {
+      line-height: 4.5vh;
+    }
+  
+    .navigation h1 {
+      font-size: 2rem;
+    }
+  
+    .navigation p {
+      font-size: 1.1rem;
+    }
+  
+  
+    .options {
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-left: 10%;
+      padding: 1rem 0;
+      justify-content: center;
+    }
+  
+    .options li {
+      display: inline-block;
+      width: auto;
+      text-align: center;
+    }
+  
+  
+    .home-page {
+      max-width: 95vw;
+      max-height: auto;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+    }
+  
+    main {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+      gap: 2rem;
+    }
+  
+    .left-page {
+      width: 45%;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  
+    .left-page img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 50%;
+      padding-top: 0;
+      margin-left: 0;
+    }
+  
+    .bottom {
+      font-size: 2rem;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+  
+  
+    .right-page {
+      width: 50%;
+      margin-top: 0;
+      margin-right: 0;
+      text-align: left;
+    }
+  
+    .right-page h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .right-page p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+  
+  
+    .biography {
+      margin-top: 2rem;
+      padding: 1rem;
+      border-left: 4px solid #333;
+    }
+  
+    .biography span {
+      font-weight: bold;
+      font-size: 1.3rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  
+    .biography p {
+      font-size: 1.05rem;
+    }
+  
+    .biography button {
+      padding: 0.5rem 1.2rem;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+  
+    .biography button a {
+      color: inherit;
+    }
+  
+   
+    .books {
+      flex-direction: row;
+      margin-left: 10%;
+      padding-bottom: 2rem;
+      width: 80vw;
+      margin: 2rem auto;
+      gap: 2rem;
+    }
+  
+    .books-head h2 {
+      font-size: 1.8rem;
+      margin-left: 0;
+      text-align: center;
+      color: #FF6F61;
+    }
+  
+    .book-list {
+      overflow: visible;
+      position: static;
+    }
+  
+    .book-animation {
+      animation: none;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      gap: 1rem;
+    }
+  
+    .book {
+      width: 140px;
+      padding: 0;
+    }
+  
+    .book img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    .title {
+      margin-left: 0;
+      margin-top: 0.5rem;
+      width: 100%;
+      padding: 0.8rem 1rem;
+      font-size: 1rem;
+      background: #F9F9F9;
+      border-radius: 5px;
+      text-align: center;
+      color: #555;
+    }
+  
+   
+    .subscribe {
+      width: 70vw;
+      margin: 3rem auto 3rem auto;
+      padding: 2rem 2rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+  
+    .subscribe p {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .subscribe h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .enter_email {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #email {
+      width: 60%;
+      padding: 1rem;
+      font-size: 1.1rem;
+      background-color: rgb(246, 216, 245);
+      border: none;
+      border-radius: 6px;
+    }
+  
+    .btn {
+      width: 25%;
+      padding: 1rem;
+      font-size: 1.1rem;
+      background-color: rgb(246, 216, 245);
+      border: none;
+      border-radius: 6px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+  
+    .btn:hover {
+      background-color: rgb(193, 4, 187);
+      color: rgb(246, 216, 245);
+    }
+  
+    
+    .foot {
+      margin-top: 2rem;
+    }
+  
+    #copyright {
+      font-size: 1rem;
+      padding: 1rem 0;
+      text-align: center;
+    }
+  
+    .socials {
+      font-size: 1.8rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  
+      
+
+
+
+
+
+  @media only screen and (max-width: 750px) {
+    /* Navigation */
+    #logo {
+      width: 15%;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .navigation {
+      line-height: 4vh;
+    }
+  
+    .navigation h1 {
+      font-size: 1.8rem;
+    }
+  
+    .navigation p {
+      font-size: 1rem;
+    }
+  
+    /* Nav bar */
+    .options {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 0;
+      padding: 1rem 0;
+      align-items: center;
+    }
+  
+    .options li {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    /* Home page container */
+    .home-page {
+      max-width: 95vw;
+      max-height: auto;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+  
+    main {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    /* Left page adjustments */
+    .left-page {
+      width: 100%;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .left-page img {
+      width: 60vw;
+      height: auto;
+      border-radius: 50%;
+      padding-top: 0;
+      margin-left: 0;
+    }
+  
+    .bottom {
+      font-size: 1.8rem;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+  
+    /* Right page adjustments */
+    .right-page {
+      width: 100%;
+      margin-top: 0;
+      margin-right: 0;
+      text-align: left;
+    }
+  
+    .right-page h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .right-page p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+  
+    /* Biography */
+    .biography {
+      margin-top: 2rem;
+      padding: 1rem;
+      border-left: 4px solid #333;
+    }
+  
+    .biography span {
+      font-weight: bold;
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  
+    .biography p {
+      font-size: 1rem;
+    }
+  
+    .biography button {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+  
+    .biography button a {
+      color: inherit;
+    }
+  
+    /* Books section */
+    .books {
+      flex-direction: column;
+      margin-left: 0;
+      padding-bottom: 2rem;
+      width: 95vw;
+      margin: 2rem auto;
+    }
+  
+    .books-head h2 {
+      font-size: 1.5rem;
+      margin-left: 0;
+      text-align: center;
+      color: #FF6F61;
+    }
+  
+    .book-list {
+      overflow: visible;
+      position: static;
+    }
+  
+    .book-animation {
+      animation: none;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .book {
+      width: 40vw;
+      padding: 0;
+    }
+  
+    .book img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    .title {
+      margin-left: 0;
+      margin-top: 0.5rem;
+      width: 100%;
+      padding: 0.8rem 1rem;
+      font-size: 1rem;
+      background: #F9F9F9;
+      border-radius: 5px;
+      text-align: center;
+      color: #555;
+    }
+  
+    /* Subscribe section */
+    .subscribe {
+      width: 90vw;
+      margin: 2rem auto 3rem auto;
+      padding: 2rem 1rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+  
+    .subscribe p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .subscribe h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .enter_email {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    #email {
+      width: 90%;
+      padding: 1rem;
+      font-size: 1rem;
+      background-color: rgb(246, 216, 245);
+      border: none;
+      border-radius: 6px;
+    }
+  
+    .btn {
+      width: 90%;
+      padding: 1rem;
+      font-size: 1.1rem;
+      background-color: rgb(246, 216, 245);
+      border: none;
+      border-radius: 6px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+  
+    .btn:hover {
+      background-color: rgb(193, 4, 187);
+      color: rgb(246, 216, 245);
+    }
+  
+    /* Footer */
+    .foot {
+      margin-top: 2rem;
+    }
+  
+    #copyright {
+      font-size: 0.9rem;
+      padding: 1rem 0;
+      text-align: center;
+    }
+  
+    .socials {
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  
+  
