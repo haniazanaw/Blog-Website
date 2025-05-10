@@ -506,7 +506,7 @@
 
 
   @media only screen and (max-width: 750px) {
-    /* Navigation */
+  
     #logo {
       width: 15%;
       margin: 0 auto;
@@ -525,7 +525,7 @@
       font-size: 1rem;
     }
   
-    /* Nav bar */
+   
     .options {
       flex-direction: column;
       gap: 10px;
@@ -540,7 +540,7 @@
       text-align: center;
     }
   
-    /* Home page container */
+ 
     .home-page {
       max-width: 95vw;
       max-height: auto;
@@ -553,7 +553,7 @@
       padding: 1rem;
     }
   
-    /* Left page adjustments */
+   
     .left-page {
       width: 100%;
       margin-bottom: 2rem;
@@ -574,7 +574,7 @@
       margin-top: 1rem;
     }
   
-    /* Right page adjustments */
+   
     .right-page {
       width: 100%;
       margin-top: 0;
@@ -593,7 +593,7 @@
       margin-bottom: 1rem;
     }
   
-    /* Biography */
+   
     .biography {
       margin-top: 2rem;
       padding: 1rem;
@@ -624,7 +624,7 @@
       color: inherit;
     }
   
-    /* Books section */
+  
     .books {
       flex-direction: column;
       margin-left: 0;
@@ -675,7 +675,7 @@
       color: #555;
     }
   
-    /* Subscribe section */
+  
     .subscribe {
       width: 90vw;
       margin: 2rem auto 3rem auto;
@@ -726,7 +726,6 @@
       color: rgb(246, 216, 245);
     }
   
-    /* Footer */
     .foot {
       margin-top: 2rem;
     }

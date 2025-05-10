@@ -179,7 +179,7 @@ html {
 
 
 @media only screen and (max-width: 750px) {
-  /* Adjust nav menu to vertical and center it */
+  
   nav ul {
     flex-direction: column;
     gap: 20px;
@@ -187,7 +187,7 @@ html {
     align-items: center;
   }
 
-  /* Header adjustments */
+  
   header h1 {
     font-size: 24px;
     margin-top: 10px;
@@ -199,14 +199,14 @@ html {
     margin-bottom: 10px;
   }
 
-  /* Main container stack vertically */
+ 
   .main {
     flex-direction: column;
     width: 90%;
     margin-left: 5%;
   }
 
-  /* Book title image smaller and centered */
+  
   .book-title {
     flex-direction: column;
     width: 100%;
@@ -232,7 +232,7 @@ html {
     margin-left: 0;
   }
 
-  /* Aside section full width and margin reset */
+ 
   .aside {
     width: 100%;
     margin-left: 0;
@@ -249,7 +249,7 @@ html {
     height: 120px;
   }
 
-  /* Book reflection container stack vertically */
+
   .book-reflection {
     flex-direction: column;
     width: 90%;
@@ -282,7 +282,7 @@ html {
     font-size: 1em;
   }
 
-  /* Footer font size smaller */
+  
   footer {
     font-size: 1rem;
     padding: 15px 0;
@@ -290,13 +290,13 @@ html {
 }
 
 @media screen and (min-width: 750px) and (max-width: 999px) {
-  /* Navigation: reduce gap and center */
+ 
   nav ul {
     gap: 50px;
     margin-left: 20%;
   }
 
-  /* Header adjustments */
+  
   header h1 {
     font-size: 28px;
   }
@@ -307,14 +307,14 @@ html {
     margin-bottom: -50px;
   }
 
-  /* Main container: keep flex row but allow wrapping */
+ 
   .main {
     flex-wrap: wrap;
     width: 95%;
     margin-left: 2.5%;
   }
 
-  /* Book title: smaller width and image */
+  
   .book-title {
     width: 100%;
     margin-top: 2%;
@@ -337,7 +337,7 @@ html {
     margin-left: 0;
   }
 
-  /* Aside: reduce width and margin */
+
   .aside {
     width: 350px;
     margin-left: 10%;
@@ -345,13 +345,13 @@ html {
     height: auto;
   }
 
-  /* About book image smaller */
+ 
   .about-book img {
     width: 130px;
     height: 130px;
   }
 
-  /* Book reflection: stack vertically with some padding */
+
   .book-reflection {
     flex-direction: column;
     width: 90%;
@@ -384,7 +384,7 @@ html {
     font-size: 1.1em;
   }
 
-  /* Footer font size */
+
   footer {
     font-size: 1.2rem;
     padding: 18px 0;
