@@ -506,7 +506,7 @@
 
 
   @media only screen and (max-width: 750px) {
-  
+    
     #logo {
       width: 15%;
       margin: 0 auto;
@@ -525,7 +525,7 @@
       font-size: 1rem;
     }
   
-   
+    
     .options {
       flex-direction: column;
       gap: 10px;
